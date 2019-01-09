@@ -1,0 +1,60 @@
+/* Creado por Víctor Pascual Muñoz */
+@charset "utf-8";
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+div {
+    font-size: 200%;
+    width: 30%;
+    height: 200px;
+    position: absolute;
+}
+div.naranja {
+    background-color: #FFD580;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    height: 100px;
+    font-size: 200%;
+}
+div.amarillo {
+    background-color: #FFFF80;
+    border: #D6D643 5px solid;
+    left: 10%;
+    top: 30%;
+}
+div.azul {
+    background-color: #CCFFFF;
+    border: #9FC6C6 5px solid;
+    width: 30%;
+    height: 200px;
+    left: 60%;
+    top: 30%;
+}
+div.verde {
+    background-color: #80FF80;
+    border: #367D36 5px solid;
+    top: 50%;
+    left: 35%;
+}
+div.violeta {
+    background-color: #FFE6FF;
+    border: #BEA7BE 5px solid;
+    left: 10%;
+    top: 65%;
+}
+div.rojo {
+    background-color: #FFB3B3;
+    border: #846262 5px solid;
+    left: 60%;
+    top: 65%;
+}
+div:hover {
+    z-index: 2;
+}
